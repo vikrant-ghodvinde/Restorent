@@ -1,0 +1,131 @@
+@media only screen and (max-width : 1100px) {
+  /* navbar */
+  .navbar{
+    transition: 0.5s ease-out;
+    height: 250px;
+  }
+  .navbar .list ul{
+    flex-direction: column;
+  }
+
+  /* burger */
+  .burger{
+    display: block;
+  }
+  .nav-vis{
+    opacity: 0;
+  }
+  .nav-height{
+    height: 55px;
+  }
+
+
+
+  /* header */
+  .content{
+    width: auto;
+    padding: 0 20px;
+  }
+  .content h1{
+    font-size: 28px;
+  }
+
+  /* about */
+  .about-content{
+    flex-direction: column;
+    text-align: justify;
+    margin: auto;
+  }
+  .about-left{
+    width: auto;
+    padding: 5px 10px;
+  }
+  .about-right{
+    width: auto;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+
+  /* menus */
+  .menu-content{
+    flex-direction: column;
+  }
+
+  /* experts */
+  .expert-content{
+    flex-direction: column;
+  }
+
+  /* experts */
+  .testimonials-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .testimonials-list .name{
+    padding-top: 10px;
+  }
+
+  /* contact us */
+  .contact .container{
+    content: '';
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .contact .container p{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+  }
+  .contact .container .text-box{
+    width: 220px;
+    height: 25px;
+    margin: 10px 5px;
+    font-size: 16px;
+    padding: 0 5px;
+    font-family: cursive;
+  }
+  .contact .container .text-area{
+    height: 30px;
+    width: 220px;
+    padding: 5px 5px;
+  }
+  .contact .container button{
+    margin: 10px 5px;
+    background: #fc0335;
+  }
+}
+
+/* for width 400px */
+@media only screen and (max-width : 400px) {
+  /* navbar */
+  .navbar .logo{
+    width: 50%;
+    margin-left: 5px;
+  }
+  .navbar .logo h1{
+    font-size: 28px;
+  }
+
+  /* header */
+  .content h1{
+    font-size: 18px;
+  }
+
+  /* section */
+  .section h1{
+    font-size: 22px;
+  }
+  .section h1 span{
+    font-size: 40px;
+  }
+
+  /* manus */
+  .menu .title{
+    font-size: 14px;
+  }
+}
