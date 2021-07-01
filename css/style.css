@@ -82,7 +82,7 @@ html{
   position: absolute;
   width: auto;
   right: 15px;
-  top: 10px;
+  top: 15px;
 }
 .burger .b-line{
   width: 25px;
@@ -314,7 +314,7 @@ html{
   margin: 10px 50px;
   font-size: 16px;
   padding: 0 5px;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 .contact .container .text-area{
   height: 60px;
